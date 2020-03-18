@@ -1,0 +1,9 @@
+src/data/chars.h
+src/data/pos.h
+*.pyc
+dist
+sql/unidecode-*.sql
+*.o
+*.so
+.git*
+test

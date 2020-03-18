@@ -40,7 +40,7 @@ dist:
 	cd dist && tar zcvf $(EXTENSION)-$(EXTVERSION).tar.gz ./$(EXTENSION)-$(EXTVERSION) && rm -fR ./$(EXTENSION)-$(EXTVERSION)
 
 $(CHARS_H) $(POS_H): builder/builder.py
-		python builder/builder.py
+		python3 builder/builder.py
 $(POS_H): $(CHARS_H)
 
 .PHONY: dist

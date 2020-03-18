@@ -1,7 +1,7 @@
 {
   "name": "unidecode",
   "abstract": "ASCII transliterations of Unicode text",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "maintainer": [
     "Alexander Kuznetsov <alexkuz@gmail.com>",
     "Guillermo Narvaja <guillermo.narvaja@radiocut.fm>"
@@ -21,7 +21,7 @@
   "provides": {
     "unidecode": {
       "file": "sql/unidecode.sql",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "abstract": "ASCII transliterations of Unicode text"
     }
   }
